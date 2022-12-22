@@ -7,7 +7,7 @@ android {
     namespace 'com.tuly.calculator'
     compileSdk 33
 
-    defaultConfig {
+    defaultConfig {//
         applicationId "com.tuly.calculator"
         minSdk 29
         targetSdk 33
