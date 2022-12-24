@@ -1,11 +1,17 @@
 package com.tuly.calculator.domain
 
+
 enum class Operation(val symbol: Char) {
     ADD('+'),
-    SUBTRACT('-'),
-    MULTIPLY('x'),
+
     DIVIDE('/'),
+
+    MULTIPLY('x'),
+
     PERCENT('%'),
+
+    SUBTRACT('-'),
+
 }
 
 val operationSymbols = Operation.values().map { it.symbol }.joinToString("")
